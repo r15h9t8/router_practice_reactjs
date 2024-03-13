@@ -1,0 +1,28 @@
+/* Write your CSS code here */
+.about-container {
+  height: 40vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 48px;
+  font-weight: bold;
+  color: #551e53;
+  padding-top: 30px;
+}
+
+.desc {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #555555;
+}

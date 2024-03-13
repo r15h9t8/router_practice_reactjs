@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+
+.navbar {
+  height: 10vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 10vw;
+  height: 10vh;
+}
+
+.logo-name {
+  color: #12022f;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-links {
+  width: 20vw;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+
+.list-item {
+  color: #12022f;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  text-decoration: none;
+}
